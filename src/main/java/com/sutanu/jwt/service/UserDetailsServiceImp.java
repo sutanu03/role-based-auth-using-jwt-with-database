@@ -8,11 +8,11 @@ import org.springframework.stereotype.Service;
 import com.sutanu.jwt.repository.UserRepo;
 
 @Service
-public class UserDetailsImp implements UserDetailsService {
+public class UserDetailsServiceImp implements UserDetailsService {
 
 	private final UserRepo usr;
 	
-	public UserDetailsImp(UserRepo usr) {
+	public UserDetailsServiceImp(UserRepo usr) {
 		this.usr = usr;
 	}
 
